@@ -1,0 +1,1780 @@
+[2][main] Process=65890
+[2][main] ====== Start Process ======
+[2][main] Password for USER0: 
+[2][main] ==================== Start execute CPTS test ======================
+[2][main] file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-43.irp
+[2][main] --------precondition:begin--------
+[2][main] --------precondition:end--------
+[2][main] mkdir: cannot create directory '/home/user/results/job1': File exists
+
+[2][main] 55 bytes of data.
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=502 time=1.35 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=502 time=1.36 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=502 time=1.27ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=502 time=1.04 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=502 time=1.38 ms
+
+[2][main] Creating CPTS process.
+[2][main] patching args=
+[2][main] Warning: Telnet is not a secure protocol, and it is recommended to use Stelnet.
+
+Username: 
+[2][main] ne900156
+Password:
+[2][main] Info: The max number of VTY users is 16, the number of current VTY users online is 5, and total number of terminal users online is 3.
+ The current login time is 2019-01-11 15:00:13.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit
+[2][main] quit
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display clock
+[2][main] display clock
+2011-05-13 15:00:13
+Tuesday
+Time Zone(DefaultZoneName): UTC
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display version
+[2][main] display version
+Versatile Routing Platform Software
+VRP (R) software, Version 6.220 (NE9000-20-LS V800R022C10)
+Copyright (C) 2011-2021 Technologies Co., Ltd.
+NE9000-20 uptime is 1 day, 8 hours, 30 minutes
+
+NE9000-20-LS version information:
+---------------------------------------
+BKP version information:
+VMPU Slot Quantity: 3
+LPU Slot Quantity: 30
+---------------------------------------
+VMPU version information:
+
+VMPU (Master) 22: uptime is 0 day, 9 hours, 42 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12299 M bytes
+ CFCARD Memory Size : 5125 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV A
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display device
+[2][main] display device
+NE9000-20-LS's Device status:
+-------------------------------------------------------------------
+Slot # Type  Online   Register      Status    Role  Lsld  Primary
+-------------------------------------------------------------------
+5        LPU   Present  Registered  Normal  LC      3       NA
+8        LPU   Present  Registered  Normal  LC      3       NA
+12      LPU   Present  Registered  Normal  LC      3       NA
+23      LPU   Present  Registered  Normal  MMB 3       Master
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display license
+[2][main] display license
+Active Lisense : cfcard:/LICNE9000_V800R021_20210802BAE85C.xml
+Lisense state : Demo
+Revoke ticket : No ticket
+License mode : commom
+
+Item name         Item type           Value             Description
+-------------------------------------------------------------------
+LCR959GRAD0Q        --                 400               NetEngine9000 500M Upgrade to 10G Port Enable  RTU (per 500M)
+LCR959GRAD0Q       Resource       400               NetEngine9000 500M Upgrade to 10G Port Enable  RTU (per 500M)
+LCR959GRAS 00        --                 1                   NetEngine9000 Virtual System Function License
+LCR959GRAN00        Fuction         Yes               NetEngine9000 IP Performance Measure Licence (IP FPM)
+
+Item name           (View)Resource License Command-Line
+-------------------------------------------------------------------
+LCR9S9KXL3V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+LCR9S9KXL231L    (Slot)I3vpn capacity enhance enable
+LCR9S7KXL4V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+LCR9S8KXL5V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display patch verbose
+[2][main] display patch verbose
+Info: No patch exists.
+The current state is: Idle
+Board Info:
+----------------------------------------
+Slot-id PatchType Count
+----------------------------------------
+-       -        -
+----------------------------------------
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display module-information
+[2][main] display module-information
+                        Module-information
+-------------------------------------------------------------------
+Module    Version       InstallTime      PackageName
+-------------------------------------------------------------------
+RM         V200R212SPH200       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+equipment         V200R212SPH013       2021-05-21 09:53:19      V200R212SPH-NE9000_3356_RM_CMS_mir.MOD
+LI        V200R212SPH012       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+piaobai        V200R212SPH001       2021-05-21 09:53:19      V200R212SPH-NE9000_RM_CMS_mir.MOD
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display startup
+[2][main] display startup
+MainBoard: 
+ Configured startup sysytem software:   cfcard:/NE9000_V90012BOBO.cc
+ startup sysytem software:   cfcard:/NE9000_V900129988.cc
+ Next startup sysytem software:   cfcard:/NE9000_V90012.cc
+ Startup paf file:   default
+ Next Startup paf file:   default
+ Startup patch package:   NULL
+ Next Startup patch package:   NULL
+SlaveBoard: 
+ Configured startup sysytem software:   cfcard:/NE9000_V9001255BO.cc
+ startup sysytem software:   cfcard:/NE9000_V900178988.cc
+ Next startup sysytem software:   cfcard:/NE9000_V9kl012.cc
+ Startup paf file:   default
+ Next Startup paf file:   default
+ Startup patch package:   NULL
+ Next Startup patch package:   NULL
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system
+[2][main] system
+Enter system view, return view with return command.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: diagnose
+[2][main] diagnose
+Warning: Enter system view, return view with return command.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: commit
+[2][main] commit
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display data-channel
+[2][main] display data-channel
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ptn-mode
+[2][main] display ptn-mode
+                             ^
+Error: command found at '^' position
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display vrcb
+[2][main] display vrcb
+System Version: V900jiojhjo000
+VRP Version: V900CPPo000
+VIST Version: vist12.335699989
+OSAL Version: VPP V900CPPo000
+PSE Version: VPP V900CPPo000
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return
+[2][main] return
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display slot 7 chipisolate state
+[2][main] display slot 7 chipisolate state
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display anti-theft status
+[2][main] display anti-theft status
+-----------------------------------------
+                 NP state
+-----------------------------------------
+                 TM state
+-----------------------------------------
+
+[2][main] version = 1.22.33.89
+[2][main] vrp_version = 1.22.33.89
+[2][main] ne_type = 1.22.33.89
+[2][main] ipn = Router
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display access-user
+[2][main] display access-user
+-----------------------------------------
+Total users               :3
+IPv4  users               :3
+IPv6  users               :3
+Lac users               :3
+RUI local users               :3
+RUI remote users               :3
+Accounting ready               :3
+Accounting state               :3
+-----------------------------------------
+
+[2][main] ERROR, execute cmd: '( /usr/hdp/3.0.1.0-187/hadoop/bin/yarn node -list 2> /dev/null | grep RUNNING )' timedout.
+  STDOUT:
+
+  STDERR:
+
+[2][main] please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually
+[2][main] /home/user/CPTS3/bin/functions/workload_functions.sh: line 38: filename argument required
+[2][main] nohup: ignoring input
+[2][main] ====== Start Process ======
+[2][main] Password for user@BIGDATA: 
+[2][main] ==================== Start execute CPTS test ======================
+[2][main] mkdir: cannot create directory '/home/user/results': File exists
+[2][main] mkdir: cannot create directory '/home/user/results/job3': File exists
+[2][main] mkdir: cannot create directory '/home/user/results/job2': File exists
+[2][main] mkdir: cannot create directory '/home/user/results/job1': File exists
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ipv6 prefix
+[2][main] display ipv6 prefix
+                             ^
+Error: command found at '^' position
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ip pool
+[2][main] display ip pool
+
+IP address pool Statistic
+Local : 1    Remote: 1    Server: 1   
+IP address Statistic
+Total    :3         Used    :3         Ratio    :3         
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit
+[2][main] quit
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: cd/
+[2][main] cd/
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: pwd
+[2][main] pwd
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view
+[2][main] system-view
+Enter system view, return command.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display commit list
+[2][main] display commit list
+--------------------------------------------------------------------------------------
+No.  commitID     Label        User                    TimeStamp
+1     10052358        _           ne900112             2021-09-18 12:56:12
+2     10052359        _           ne900112             2021-09-18 12:56:13
+3     10052360        _           ne900112             2021-09-18 12:56:14
+4     10052362       va1           ne900112             2021-09-18 12:56:15
+5     10052363      bbb          ne900112             2021-09-18 12:56:16
+6     10052364      commit_label          ne900112             2021-09-18 12:56:17
+7     10052365     20210918          ne900112             2021-09-18 12:56:18
+--------------------------------------------------------------------------------------
+ 
+[3][main] patching args=
+[3][main] Parsing conf: /home/user/CPTS3/conf/hadoop.conf
+[3][main] Parsing conf: /home/user/CPTS3/conf/CPTS.conf
+[3][main] Parsing conf: /home/user/CPTS3/conf/spark.conf
+[3][main] Parsing conf: /home/user/CPTS3/conf/workloads/micro/job3.conf
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: quit
+[2][main] quit
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: dir auto_9.08.100.56.cfg
+[2][main] dir auto_9.08.100.56.cfg
+Directory of cfcard:/
+
+Idx    Attr      Size(Byte)            Date         Time          FileName
+0      -rw-      22,344        April 23 2011  14:13:23     auto_9.08.100.56.cfg
+
+5,435,330 KB total (2,435,330 KB free)
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: clear configuration commit label begin_rollback
+[2][main] clear configuration commit label begin_rollback
+                         ^
+Error: command found at '^' position
+
+[2][789993848599303] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: rollback confuguration to file auto_9.08.100.56.cfg
+[2][789993848599303] Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:
+[2][789993848599303] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: Y
+[2][789993848599303] Y
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:
+[2][789993848599304] [2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: Y
+[2][789993848599304] Y
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:
+[2][789993848599303] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: N
+[2][789993848599303] N
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:Y
+Loading rollback changes.
+Committing
+Check rollback result.
+Configuration rollback finished, but there are still several differences.
+Please use 'display configuration rollback result' to view the differences.
+Please use 'display configuration rollback result' to view the changes.
+
+[2][789993848599303] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display configuration rollback result
+[2][789993848599303] display configuration rollback result
+!There are still several differences as follow:
+ bbb
+-local-user ne8809090 password hohuhu999
++local-user ne8809090 password hohuhu9999
+ #
+ license
++ active network-slice flex-channel 2000 slot 18
++ active network-slice flex-channel 2000 slot 19
++ active network-slice flex-channel 2000 slot 11
++ active network-slice flex-channel 2000 slot 12
++ active network-slice flex-channel 2000 slot 13
++ active network-slice flex-channel 2000 slot 14
+ #
+ interface GigabitEthernet5/0/8
+- undo dcn
+ #
+ interface GigabitEthernet5/0/9
+- undo dcn
+ #
+ interface GigabitEthernet5/0/7
+- undo dcn
+ #
+ interface GigabitEthernet5/0/6
+- undo dcn
+ #
+ interface GigabitEthernet5/0/5
+- undo dcn
+ #
+ interface GigabitEthernet5/0/4
+- undo dcn
+ #
+ interface GigabitEthernet4/0/8
+- undo dcn
+ #
+ interface GigabitEthernet4/0/9
+- undo dcn
+ #
+ interface GigabitEthernet4/0/7
+- undo dcn
+ #
+ interface GigabitEthernet4/0/6
+- undo dcn
+ #
+ interface GigabitEthernet4/0/5
+- undo dcn
+ #
+ interface GigabitEthernet4/0/4
+- undo dcn
+ #
+-pki domain default
+ #
+
+[2][main] 21/12/25 20:33:42 INFO mapreduce.Job: Job job_1668496639954_6827 running in uber mode : false
+[2][main] 21/12/25 20:33:42 INFO mapreduce.Job:  map 0% reduce 0%
+[2][main] 21/12/25 20:33:49 INFO mapreduce.Job:  map 67% reduce 0%
+[2][main] 21/12/25 20:33:55 INFO mapreduce.Job:  map 100% reduce 0%
+[2][main] 21/12/25 20:33:58 INFO mapreduce.Job: Job job_1668496639954_6827 completed successfully
+[2][main] 21/12/25 20:33:58 INFO mapreduce.Job: Counters: 33
+	File System Counters
+		FILE: Number of bytes read=0
+		FILE: Number of bytes written=741919
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=248
+		HDFS: Number of bytes written=12800000
+		HDFS: Number of read operations=18
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=6
+	Job Counters 
+		Launched map tasks=3
+		Other local map tasks=3
+		Total time spent by all maps in occupied slots (ms)=68226
+		Total time spent by all reduces in occupied slots (ms)=0
+		Total time spent by all map tasks (ms)=22742
+		Total vcore-milliseconds taken by all map tasks=22742
+		Total megabyte-milliseconds taken by all map tasks=69863424
+	Map-Reduce Framework
+		Map input records=128000
+		Map output records=128000
+		Input split bytes=248
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=275
+		CPU time spent (ms)=7390
+		Physical memory (bytes) snapshot=1007579136
+		Virtual memory (bytes) snapshot=14031929344
+		Total committed heap usage (bytes)=1625817088
+		Peak Map Physical memory (bytes)=337891328
+		Peak Map Virtual memory (bytes)=4679204864
+	org.apache.hadoop.examples.job3.Gen$Counters
+		CHECKSUM=274499767025821
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=12800000
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display version
+[2][main] display version
+Versatile Routing Platform Software
+VRP (R) software, Version 9.220 (NE9000-20-LS V800R022C10)
+Copyright (C) 2011-2021 Technologies Co., Ltd.
+NE9000-20 uptime is 1 day, 8 hours, 50 minutes
+
+NE9000-20-LS version information:
+---------------------------------------
+BKP version information:
+VMPU Slot Quantity: 4
+LPU Slot Quantity: 40
+---------------------------------------
+VMPU version information:
+
+VMPU (Master) 22: uptime is 0 day, 9 hours, 42 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12299 M bytes
+ CFCARD Memory Size : 5125 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV A
+
+VMPU (Master) 23: uptime is 0 day, 9 hours, 42 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12299 M bytes
+ CFCARD Memory Size : 5125 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV C
+---------------------------------------
+LPU version information:
+
+LPU 5: uptime is 1 day, 9 hours, 43 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99897 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 103
+  FPGA  Version : 106
+  CHIP  Version : 115
+  CHIP2  Version : 115
+  FPGA  Version : 210
+  FPGA2  Version : 210
+  CHIP  Version : 005
+  CHIP2  Version : 005
+  Software Version: 12
+
+LPU 6: uptime is 1 day, 10 hours, 44 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99897 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 103
+  FPGA  Version : 106
+  CHIP  Version : 115
+  CHIP2  Version : 115
+  FPGA  Version : 210
+  FPGA2  Version : 210
+  CHIP  Version : 005
+  CHIP2  Version : 005
+  Software Version: 12
+
+LPU 17: uptime is 1 day, 10 hours, 44 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99897 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 103
+  FPGA  Version : 106
+  CHIP  Version : 115
+  CHIP2  Version : 115
+  FPGA  Version : 210
+  FPGA2  Version : 210
+  CHIP  Version : 005
+  CHIP2  Version : 005
+  Software Version: 12
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display ip routing-table all-routes
+[2][main] display ip routing-table all-routes
+Route Flags: R-relay, D-download to fib, T-to vpn-instanse, B-black hole route
+--------------------------------------------------------------------------------------
+Routing Table :_public_
+          Destinations: 9          Routes : 9
+
+Destination/Mask    Proto       Pre        Cost            Flags NextHop           Interface
+9.32.0.0/14               Direct      0              0               D 9.32.200.14            GigabitEthernet1/1/1
+9.32.0.0/24               Direct      0              0               D 9.32.200.14            GigabitEthernet1/1/1
+9.32.0.0/34               Direct      0              0               D 9.32.200.14            GigabitEthernet1/1/1
+9.32.0.0/14               Direct      0              0               D 9.32.200.14            InLoopBack1
+9.32.0.0/12               Direct      0              0               D 9.32.200.14            InLoopBack1
+9.32.0.0/13               Direct      0              0               D 9.32.200.14            InLoopBack1
+--------------------------------------------------------------------------------------
+Routing Table :_public_
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display current-configuration
+[2][main] display current-configuration
+!Software Version V908uu37767
+!Last configuration was updated at 2019-01-11 15:00:13
+!Last configuration was saved at 2019-01-11 15:00:13
+#
+sysname R23
+#
+service-template template-default0
+#
+service-template template-default1
+#
+service-template template-default2
+#
+service-template template-default3
+#
+service-template template-default4
+#
+service-template template-default5
+#
+service-template template-default6
+#
+service-template template-default7
+#
+service-template template-default8
+#
+service-template template-default9
+#
+domain default
+#
+domain 8oed
+#
+undo soc
+#
+bbb
+local-user ne8809090 password hohuhu999
+local-user ne8809090 service-type
+local-user ne8809090 state active
+#
+autherntication-scheme default0
+#
+autherntication-scheme default1
+#
+autherntication-scheme default2
+#
+domain default0
+#
+domain default1
+#
+domain default2
+#
+license
+active port-basic slot 20 card 1 port 1-58
+active port-evpn slot 20 card 1 port 1-58
+active port-vxlan slot 20 card 1 port 1-58
+active port-I3vpn slot 20 card 1 port 1-58
+#
+interface GigabitEthernet5/0/0
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/1
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/2
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/3
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/4
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/5
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/0
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/1
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/2
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/3
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/4
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/5
+undo shutdown
+undo dcn
+#
+interface Post5/0/0
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+interface Post5/0/1
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+interface Post5/0/2
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+ssh user Admin System
+ssh user Admin System rsa
+ssh user Admin System service
+ssh user Is3_System
+ssh user Is3_System rsa
+ssh user Is3_System service
+#
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view, return user view with return command.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 1
+[2][main] user-interface con 1
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 2
+[2][main] user-interface con 2
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface aux 2
+[2][main] user-interface aux 2
+         ^
+Error: command found at '^' position.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface vyt 2 20
+[2][main] user-interface vyt 2 20
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: authentication-mode bbb
+[2][main] authentication-mode bbb
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user privilege level 4
+[2][main] user privilege level 4
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: idle-timeout 1  1
+[2][main]  idle-timeout 1  1
+Warning: idle-timeout is configured as 1
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: screen-length 4
+[2][main] screen-length 4
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: W
+[2][main] W
+
+[2][main] [2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: W
+[2][main] W
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return
+[2][main] return
+
+[2][main] [2019-03-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view, return user view with return command.
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view, return user view with return command.
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.189] {DTA}[8.36.200.27 26]: quit
+[2][main] quit
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo netconf
+[2][main] undo netconf
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo pki domain default
+[2][main] undo pki domain default
+Error: Illegal to delete PKI undo netconf
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client
+[2][main] undo ssh client
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client key-exchange
+[2][main] undo ssh client key-exchange
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac
+[2][main] undo ssh client hmac
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac sha2
+[2][main] undo ssh client hmac sha2
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh client hmac sha2_126
+[2][main] undo ssh client hmac sha2_126
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh user system
+[2][main] undo ssh user system
+Error: The configue is invalid
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ssh user Admin system
+[2][main] undo ssh user Admin system
+Error: The configue is invalid
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ip vpn-instance
+[2][main] undo ip vpn-instance
+Error: Deleting the vpn-instance is not allowed.
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo ntp-service server
+[2][main] undo ntp-service server
+   ^
+Error: Wrong parameter found at '^' position
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 5
+[2][main] undo service-template default 5
+Error: System defined service-template default 5 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 6
+[2][main] undo service-template default 6
+Error: System defined service-template default 6 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo service-template default 7
+[2][main] undo service-template default 7
+Error: System defined service-template default 7 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: undo set neid 78987
+[2][main] undo set neid 78987
+   ^
+Error: Unrecognized command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.169] {DTA}[8.36.200.27 26]: display current-configuration
+[2][main] display current-configuration
+! Last configuration was updated at 2019-05-11 15:00:13
+! Last configuration was saved at 2019-05-11 15:00:13
+#
+sysname T78
+#
+set neid 789
+#
+service-template template-default 5
+#
+service-template template-default 6
+#
+service-template template-default 7
+#
+service-template template-default 8
+#
+service-template template-default 9
+#license
+active port-basic slot 29 card 11-48
+active port-evpn slot 29 card 11-48
+active port-vxlan slot 29 card 11-48
+active port-srv slot 29 card 11-48
+#
+interface GigabitEthernet5/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/46
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/47
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/48
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet5/0/49
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet7/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet8/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE5/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE5/0/33
+undo shutdown
+undo dcn
+#
+interface 29GE5/0/46
+undo shutdown
+undo dcn
+#
+interface 29GE5/0/35
+undo shutdown
+undo dcn
+#
+interface 29GE5/0/12
+undo shutdown
+undo dcn
+#
+interface 29GE6/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE7/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE8/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE9/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE15/0/45
+undo shutdown
+undo dcn
+#
+interface Post15/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+#
+interface Post16/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+#
+interface Post17/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+#
+interface Post18/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+#
+interface Post19/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+#
+interface Post25/0/45
+link-protocol KKK
+undo shutdown
+undo dcn
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: quit
+[2][main] quit
+
+[2][main] [2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.163] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: interface Pos 8/4/0
+[2][main] interface Pos 8/4/0
+
+[2][main] [2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: interface Pos 9/4/0
+[2][main] interface Pos 9/4/0
+
+[2][main] [2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: interface Pos 6/4/0
+[2][main] interface Pos 6/4/0
+ 
+[2][main] [2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: display clock
+[2][main] display clock
+                         total        used        free             shared    buff/cache   available
+Mem:        8010172      627052     6692888        8624      690232     7066364
+Swap:       8388604           0     8388604
+R222
+[2][main] Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd
+[2][main] Process=/user/local/rvm/rubies/smp/vrp/cfgm/cmd
+[2][main] Password for team9@BIGDATA: 
+[2][main] file_path=======/report/220912.25/report/HQOS.A2005_report/HQOS.A2005_2021-01-01_16-47.irp
+[2][main] mkdir: cannot create directory '/home/user/results/job1': File exists
+
+[2][main] 155 bytes of data.
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=532 time=1.35 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=555 time=1.36 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=512 time=1.27ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=522 time=1.04 ms
+32 bytes from 6.35.100.35: icmp_seq=1 ttl=542 time=1.38 ms
+
+[2][main] Creating job3 data.
+[2][main] patching args=/user/local/rvm/rubies/smp/vrp/cfgm/cmd
+[2][main] Warning: Telnet is not a secure protocol, and it is recommended to use Stelnet.
+
+Username: 
+[2][main] ne9001590
+Password: 7hregrw
+[2][main] 
+Info: The max number of VTY users is 26, the number of current VTY users online is 7, and total number of terminal users online is 7.
+ The current login time is 2019-01-11 16:00:13.
+
+[2][main] [2019-01-11 15:00:13.234] {DTA}[8.36.200.27 26]: display clock
+[2][main] display clock
+2012-05-13 15:00:13
+Tuesday
+Time Zone(DefaultZoneName): UTC
+
+[2][main] [2019-01-11 15:00:13.136] {DTA}[8.36.200.27 26]: display version
+[2][main] display version
+Versatile Routing Platform Software
+VRP (R) software, Version 6.220 (NE9000-20-LS V800R022C10)
+Copyright (C) 2011-2021 Technologies Co., Ltd.
+NE9000-20 uptime is 11 day, 18 hours, 300 minutes
+
+NE9000-20-LS version information:
+---------------------------------------
+BKP version information:
+VMPU Slot Quantity: 31
+LPU Slot Quantity: 301
+---------------------------------------
+VMPU version information:
+
+VMPU (Master) 22: uptime is 10 day, 19 hours, 421 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12299 M bytes
+ CFCARD Memory Size : 5125 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV A
+
+[2][main] [2019-01-11 15:00:13.145] {DTA}[8.36.200.27 26]: display device
+[2][main] display version
+NE9000-20-LS's Device status:
+-------------------------------------------------------------------
+Slot # Type  Online   Register      Status    Role  Lsld  Primary
+-------------------------------------------------------------------
+15        LPU   Present  Registered  Normal  LC      13       NA
+18        LPU   Present  Registered  Normal  LC      13       NA
+22      LPU   Present  Registered  Normal  LC      13       NA
+43      LPU   Present  Registered  Normal  MMB 13       Master
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.146] {DTA}[8.36.200.27 26]: display license
+[2][main] display license
+Active Lisense : cfcard:/LICNE9000_V800R021_20110802BAE85C.xml
+Lisense state : Demo
+Revoke ticket : No ticket
+License mode : commom
+
+Item name         Item type           Value             Description
+-------------------------------------------------------------------
+LCR959GRAD0Q        --                 401               NetEngine9000 500M Upgrade to 10G Port Enable  RTU (per 500M)
+LCR959GRAD0Q       Resource       401               NetEngine9000 500M Upgrade to 10G Port Enable  RTU (per 500M)
+LCR959GRAS 00        --                  2                  NetEngine9000 Virtual System Function License
+LCR959GRAN00        Fuction         Yes               NetEngine9000 IP Performance Measure Licence (IP FPM)
+
+Item name           (View)Resource License Command-Line
+-------------------------------------------------------------------
+LCR9S9KXL3V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+LCR9S9KXL231L    (Slot)I3vpn capacity enhance enable
+LCR9S7KXL4V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+LCR9S8KXL5V1L    (License)active port-I3vpn slot <slot-id> card <card-id> port <port-list>
+
+[2][main] [2019-01-11 15:00:13.166] {DTA}[8.36.200.27 26]: display patch verbose
+[2][main] display patch verbose
+Info: No patch exists.
+The current state is: Idle
+Board Info:
+----------------------------------------
+Slot-id PatchType Count
+----------------------------------------
+-       -        -
+----------------------------------------
+
+[2][main] [2019-01-11 15:00:13.144] {DTA}[8.36.200.27 26]: display module-information
+[2][main] display module-information
+                        Module-information
+-------------------------------------------------------------------
+Module    Version       InstallTime      PackageName
+-------------------------------------------------------------------
+RM         V200R212SPH201       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+equipment         V200R212SPH014       2021-05-21 09:53:19      V200R212SPH-NE9000_3356_RM_CMS_mir.MOD
+LI        V200R212SPH013       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+piaobai        V200R212SPH002       2021-05-21 09:53:19      V200R212SPH-NE9000_RM_CMS_mir.MOD
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.154] {DTA}[8.36.200.27 26]: display module-information
+[2][main] display module-information
+                        Module-information
+-------------------------------------------------------------------
+Module    Version       InstallTime      PackageName
+-------------------------------------------------------------------
+RM         V200R212SPH201       2011-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+equipment         V200R212SPH014       2011-05-21 09:53:19      V200R212SPH-NE9000_3356_RM_CMS_mir.MOD
+LI        V200R212SPH013       2011-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+piaobai        V200R212SPH002       2011-05-21 09:53:19      V200R212SPH-NE9000_RM_CMS_mir.MOD
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.164] {DTA}[8.36.200.27 26]: display module-information
+[2][main] display module-information
+                        Module-information
+-------------------------------------------------------------------
+Module    Version       InstallTime      PackageName
+-------------------------------------------------------------------
+equipment         V200R212SPH014       2021-05-21 09:53:19      V200R212SPH-NE9000_3356_RM_CMS_mir.MOD
+piaobai        V200R212SPH002       2021-05-21 09:53:19      V200R212SPH-NE9000_RM_CMS_mir.MOD
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.144] {DTA}[8.36.200.27 26]: display module-information
+[2][main] display module-information
+                        Module-information
+-------------------------------------------------------------------
+Module    Version       InstallTime      PackageName
+-------------------------------------------------------------------
+RM         V200R212SPH201       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+LI        V200R212SPH013       2021-05-21 09:53:19      V200R212SPH-NE9000_0521_3356_RM_CMS_mir.MOD
+-------------------------------------------------------------------
+
+[2][main] [2019-01-11 15:00:13.194] {DTA}[8.36.200.27 26]: display startup
+[2][main] display startup
+MainBoard: 
+ Configured startup sysytem software:   cfcard:/NE9000_V90012BO00.cc
+ startup sysytem software:   cfcard:/NE9000_V900127788.cc
+ Next startup sysytem software:   cfcard:/NE9000_V91112.cc
+ Startup paf file:   default
+ Next Startup paf file:   default
+ Startup patch package:   NULL
+ Next Startup patch package:   NULL
+SlaveBoard: 
+ Configured startup sysytem software:   cfcard:/NE9090_V9001255BO.cc
+ startup sysytem software:   cfcard:/NE9090_V900178988.cc
+ Next startup sysytem software:   cfcard:/NE9090_V9kl012.cc
+ Startup paf file:   default
+ Next Startup paf file:   default
+ Startup patch package:   NULL
+ Next Startup patch package:   NULL
+
+[2][main] [2019-01-11 15:00:13.104] {DTA}[8.36.200.27 26]: system
+[2][main] system
+Enter system view, return view with return command.
+
+[2][main] [2019-01-11 15:00:13.114] {DTA}[8.36.200.27 26]: diagnose
+[2][main] diagnose
+Warning: Enter system view, return view with return command.
+
+[2][main] [2019-01-11 15:00:13.1990] {DTA}[8.36.201.27 26]: commit
+[2][main] commit
+
+[2][main] [2019-01-11 15:00:13.234] {DTA}[8.36.202.27 26]: display data-channel
+[2][main] display data-channel
+
+[2][main] [2019-01-11 15:00:13.216] {DTA}[8.36.200.27 26]: display ptn-mode
+[2][main] display ptn-mode
+                             ^
+Error: command found at '^' position
+
+[2][main] [2019-01-11 15:00:13.224] {DTA}[8.36.200.27 26]: display vrcb
+[2][main] display vrcb
+System Version: V900jiojhjo001
+VRP Version: V900CPPo001
+VIST Version: vist12.335699981
+OSAL Version: VPP V900CPPo001
+PSE Version: VPP V900CPPo001
+
+[2][main] [2019-01-11 15:00:13.334] {DTA}[8.36.200.27 26]: return
+[2][main] return
+
+[2][main] [2019-01-11 15:00:13.889] {DTA}[8.36.200.27 26]: display slot 17 chipisolate state
+[2][main] display slot 17 chipisolate state
+
+[2][main] [2019-01-11 15:00:13.678] {DTA}[8.36.200.27 26]: display anti-theft status
+[2][main] display anti-theft status
+-----------------------------------------
+                 NP state
+-----------------------------------------
+                 TM state
+-----------------------------------------
+
+[2][main] version = 1.22.33.899
+[2][main] vrp_version = 1.22.33.899
+[2][main] ne_type = 1.22.33.899
+[2][main] ipn = Router
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: display access-user
+[2][main] display access-user
+-----------------------------------------
+Total users               :5
+IPv4  users               :5
+IPv6  users               :5
+Lac users               :5
+RUI local users               :5
+RUI remote users               :5
+Accounting ready               :5
+Accounting state               :5
+-----------------------------------------
+
+[2][main] ERROR, execute cmd: '( /usr/hdp/3.0.1.0-189/hadoop/bin/yarn node -list 2> /dev/null | grep RUNNING )' timedout.
+  STDOUT:
+
+  STDERR:
+
+[2][main] please set `CPTS.masters.hostnames` and `CPTS.slaves.hostnames` manually
+[2][main] /home/team17/CPTS13/bin/functions/workload_functions.sh: line 138: filename argument required
+
+[2][main] nohup: ignoring input
+[2][main] ====== Start Process ======
+[2][main] Password for user9@BIGDATA: 
+[2][main] ==================== Start execute CPTS test ======================
+[2][main] mkdir: cannot create directory '/home/user9/results': File exists
+[2][main] mkdir: cannot create directory '/home/user9/results/job3': File exists
+[2][main] mkdir: cannot create directory '/home/user9/results/job2': File exists
+[2][main] mkdir: cannot create directory '/home/user9/results/job1': File exists
+
+
+[2][main] [2019-01-11 15:00:13.224] {DTA}[8.36.200.27 26]: display ipv6 prefix
+[2][main] display ipv6 prefix
+                             ^
+Error: command found at '^' position
+
+[2][main] [2019-01-11 15:00:13.579] {DTA}[8.36.200.27 26]: display ip pool
+[2][main] display ip pool
+
+IP address pool Statistic
+Local : 2    Remote: 2    Server: 2   
+IP address Statistic
+Total    :13         Used    :13         Ratio    :13         
+
+[2][main] [2019-01-11 15:00:13.997] {DTA}[8.36.200.27 216]: quit
+[2][main] quit
+
+[2][main] [2019-01-11 15:00:13.568] {DTA}[8.36.200.27 216]: cd/
+[2][main] cd/
+
+[2][main] [2019-01-11 15:00:13.876] {DTA}[8.36.200.27 216]: pwd
+[2][main] pwd
+
+[2][main] [2019-01-11 15:00:13.434] {DTA}[8.36.200.27 216]: system-view
+[2][main] system-view
+Enter system view, return command.
+
+[2][main] [2019-01-11 15:00:13.1134] {DTA}[8.36.200.27 216]: display commit list
+[2][main] display commit list
+--------------------------------------------------------------------------------------
+No.  commitID     Label        User                    TimeStamp
+1     101052358        _           ne900112             2021-09-18 12:56:12
+2     101052359        _           ne900112             2021-09-18 12:56:13
+3     101052360        _           ne900112             2021-09-18 12:56:14
+4     101052362       va1           ne900112             2021-09-18 12:56:15
+5     101052363      bbb          ne900112             2021-09-18 12:56:16
+6     101052364      commit_label          ne900112             2021-09-18 12:56:17
+7     101052365     20210918          ne900112             2021-09-18 12:56:18
+--------------------------------------------------------------------------------------
+ 
+[3][main] patching args=
+[3][main] Parsing conf: /home/team17/CPTS13/conf/hadoop.conf
+[3][main] Parsing conf: /home/team17/CPTS13/conf/CPTS.conf
+[3][main] Parsing conf: /home/team17/CPTS13/conf/spark.conf
+[3][main] Parsing conf: /home/team17/CPTS13/conf/workloads/micro/job3.conf
+[2][main] [2019-01-11 15:00:13.1809] {DTA}[8.36.200.27 1226]: quit
+[2][main] quit
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: dir auto_9.08.100.56.cfg
+[2][main] dir auto_9.08.100.56.cfg
+Directory of cfcard:/
+
+Idx    Attr      Size(Byte)            Date         Time          FileName
+0      -rw-      22,344        April 23 2011  14:13:23     auto_9.08.100.56.cfg
+
+5,435,3322 KB total (2,435,3322 KB free)
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: clear configuration commit label begin_rollback
+[2][main] clear configuration commit label begin_rollback
+                         ^
+Error: command found at '^' position
+
+[2][789993848599303] [2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: rollback confuguration to file auto_9.08.100.56.cfg
+[2][789993848599303] Warning: This operation will revert configuration changes to the file auto_9.08.100.56.cfg. Continue? [Y/N]:
+[2][789993848599303] [2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: Y
+[2][789993848599303] Y
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:
+[2][789993848599304] [2019-01-11 15:00:13.1351] {DTA}[8.36.200.27 26]: Y
+[2][789993848599304] Y
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:
+[2][789993848599303] [2019-01-11 15:00:13.1341] {DTA}[8.36.200.27 26]: N
+[2][789993848599303] N
+Warning: Some warnings or configuration dofferences occurred in the last rollback. Continue? [Y/N]:Y
+Loading rollback changes.
+Committing
+Check rollback result.
+Configuration rollback finished, but there are still several differences.
+Please use 'display configuration rollback result' to view the differences.
+Please use 'display configuration rollback result' to view the changes.
+
+
+[2][789993848599303] [2019-01-11 15:00:13.1134] {DTA}[8.36.200.27 26]: display configuration rollback result
+[2][789993848599303] display configuration rollback result
+!There are still several differences as follow:
+ ccc
+-local-user ne8809091 password hohuhu99009
++local-user ne8809091 password hohuhu990099
+ #
+ license
++ active network-slice flex-channel 3000 slot 28
++ active network-slice flex-channel 3000 slot 29
++ active network-slice flex-channel 3000 slot 21
++ active network-slice flex-channel 3000 slot 22
++ active network-slice flex-channel 3000 slot 23
++ active network-slice flex-channel 3000 slot 24
+ #
+ interface GigabitEthernet5/1/8
+- undo dcn
+ #
+ interface GigabitEthernet5/1/9
+- undo dcn
+ #
+ interface GigabitEthernet5/1/7
+- undo dcn
+ #
+ interface GigabitEthernet5/1/6
+- undo dcn
+ #
+ interface GigabitEthernet5/1/5
+- undo dcn
+ #
+ interface GigabitEthernet5/1/4
+- undo dcn
+ #
+ interface GigabitEthernet4/1/8
+- undo dcn
+ #
+ interface GigabitEthernet4/1/9
+- undo dcn
+ #
+ interface GigabitEthernet4/1/7
+- undo dcn
+ #
+ interface GigabitEthernet4/1/6
+- undo dcn
+ #
+ interface GigabitEthernet4/1/5
+- undo dcn
+ #
+ interface GigabitEthernet4/1/4
+- undo dcn
+ #
+-pki domain default
+ #
+
+[2][main] 21/12/25 20:33:42 INFO mapreduce.Job: Job job_1668496639954_6827 running in uber mode : false
+[2][main] 21/12/25 20:33:42 INFO mapreduce.Job:  map 0% reduce 0%
+[2][main] 21/12/25 20:33:49 INFO mapreduce.Job:  map 67% reduce 0%
+[2][main] 21/12/25 20:33:55 INFO mapreduce.Job:  map 100% reduce 0%
+[2][main] 21/12/25 20:33:58 INFO mapreduce.Job: Job job_1668496639954_6827 completed successfully
+
+
+[2][main] [2019-01-11 15:00:13.1994] {DTA}[8.36.200.27 26]: display version
+[2][main] display version
+Versatile Routing Platform Software
+VRP (R) software, Version 9.220 (NE9000-20-LS V800R022C10)
+Copyright (C) 2011-2021 Technologies Co., Ltd.
+NE9000-20 uptime is 2 day, 18 hours, 51 minutes
+
+NE9000-20-LS version information:
+---------------------------------------
+BKP version information:
+VMPU Slot Quantity: 9
+LPU Slot Quantity: 48
+---------------------------------------
+VMPU version information:
+
+VMPU (Master) 22: uptime is 5 day, 19 hours, 44 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12209 M bytes
+ CFCARD Memory Size : 51251 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV A
+
+VMPU (Master) 23: uptime is 8 day, 99 hours, 424 minutes
+ Startup Time 2021/08/12 05:14:21
+ SDRAM Memory Size :  12299 M bytes
+ CFCARD Memory Size : 5125 M bytes
+ VMPU CR9D0MPUQ180-VMPU version information:
+ PCB  Version : VIRTUALMPU REV C
+---------------------------------------
+LPU version information:
+
+LPU 5: uptime is 2 day, 19 hours, 434 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99898 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 1031
+  FPGA  Version : 1061
+  CHIP  Version : 1151
+  CHIP2  Version : 1151
+  FPGA  Version : 2101
+  FPGA2  Version : 2101
+  CHIP  Version : 0051
+  CHIP2  Version : 0051
+  Software Version: 121
+
+LPU 6: uptime is 2 day, 20 hours, 88 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99897 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 103
+  FPGA  Version : 106
+  CHIP  Version : 115
+  CHIP2  Version : 115
+  FPGA  Version : 210
+  FPGA2  Version : 210
+  CHIP  Version : 0051
+  CHIP2  Version : 005
+  Software Version: 121
+
+LPU 17: uptime is 2 day, 20 hours, 84 minutes
+  StartupTime 2021/08/12  10:41:55
+  Host processor:
+  SDRAM Memory Size  : 99887 M bytes
+  Flash Memory Size :256 M bytes
+  PCB  Version : VIRTUALMPU REV C 
+  EPLD  Version : 1031
+  FPGA  Version : 1061
+  CHIP  Version : 1151
+  CHIP2  Version : 1151
+  FPGA  Version : 2101
+  FPGA2  Version : 2101
+  CHIP  Version : 0051
+  CHIP2  Version : 0051
+  Software Version: 121
+
+[2][main] [2019-01-11 15:00:13.135] {DTA}[8.36.200.27 26]: display ip routing-table all-routes
+[2][main] display ip routing-table all-routes
+Route Flags: R-relay, D-download to fib, T-to vpn-instanse, B-black hole route
+--------------------------------------------------------------------------------------
+Routing Table :_public_
+          Destinations: 19          Routes : 19
+
+Destination/Mask    Proto       Pre        Cost            Flags NextHop           Interface
+7.32.0.0/14               Direct      0              0               D 7.32.200.14            GigabitEthernet1/1/1
+7.32.0.0/24               Direct      0              0               D 7.32.200.14            GigabitEthernet1/1/1
+7.32.0.0/34               Direct      0              0               D 7.32.200.14            GigabitEthernet1/1/1
+7.32.0.0/14               Direct      0              0               D 7.32.200.14            InLoopBack1
+7.32.0.0/12               Direct      0              0               D 7.32.200.14            InLoopBack1
+7.32.0.0/13               Direct      0              0               D 7.32.200.14            InLoopBack1
+--------------------------------------------------------------------------------------
+Routing Table :_public_
+
+[2][main] [2019-01-11 15:00:13.194] {DTA}[8.36.200.27 26]: display current-configuration
+[2][main] display current-configuration
+!Software Version V908uu37797
+!Last configuration was updated at 2019-01-11 15:01:13
+!Last configuration was saved at 2019-01-11 15:01:13
+#
+sysname R234
+#
+service-template template-default00
+#
+service-template template-default01
+#
+service-template template-default02
+#
+service-template template-default03
+#
+service-template template-default04
+#
+service-template template-default05
+#
+service-template template-default06
+#
+service-template template-default07
+#
+service-template template-default08
+#
+service-template template-default09
+#
+domain default
+#
+domain 8oed
+#
+undo soc
+#
+ccc
+local-user ne8809091 password hohuhu888
+local-user ne8809091 service-type
+local-user ne8809091 state active
+#
+autherntication-scheme default00
+#
+autherntication-scheme default01
+#
+autherntication-scheme default02
+#
+domain default00
+#
+domain default01
+#
+domain default02
+#
+license
+active port-basic slot 21 card 2 port 1-58
+active port-evpn slot 21 card 2 port 1-58
+active port-vxlan slot 21 card 2 port 1-58
+active port-I3vpn slot 21 card 2 port 1-58
+#
+interface GigabitEthernet9/0/0
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/1
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/2
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/3
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/4
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/5
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/0
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/1
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/2
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/3
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/4
+undo shutdown
+undo dcn
+#
+interface 25GE5/0/5
+undo shutdown
+undo dcn
+#
+interface Post5/0/0
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+interface Post5/0/1
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+interface Post5/0/2
+link-protocol ppp
+undo shutdown
+undo dcn
+#
+ssh user Admin System
+ssh user Admin System rsa
+ssh user Admin System service
+ssh user Is3_System
+ssh user Is3_System rsa
+ssh user Is3_System service
+#
+
+[2][main] [2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view, return user view with return command.
+
+[2][main] [2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 11
+[2][main] user-interface con 1
+
+[2][main] [2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface con 21
+[2][main] user-interface con 2
+
+[2][main] [2019-01-12 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface aux 22
+[2][main] user-interface aux 22
+         ^
+Error: command found at '^' position.
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user-interface vyt 2 21
+[2][main] user-interface vyt 2 21
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: authentication-mode ccc
+[2][main] authentication-mode ccc
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: user privilege level 49
+[2][main] user privilege level 49
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: idle-timeout 1  19
+[2][main]  idle-timeout 1  19
+Warning: idle-timeout is configured as 19
+
+[2][main] [2019-01-11 15:00:13.234] {DTA}[8.36.200.27 26]: screen-length 49
+[2][main] screen-length 49
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: W
+[2][main] W
+
+[2][main] [2019-01-11 15:00:13.134] {DTA}[8.36.200.27 26]: return
+[2][main] return
+
+[2][main] [2019-03-11 15:00:13.134] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view,return view with command
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 26]: system-view immediately
+[2][main] system-view immediately
+Enter system view,return view with command
+
+[2][main] [2019-03-11 15:00:13.359] {DTA}[8.36.200.27 26]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.659] {DTA}[8.36.200.27 26]: quit
+[2][main] quit
+
+[2][main] [2019-03-11 15:00:13.759] {DTA}[8.36.200.27 26]: undo netconf
+[2][main] undo netconf
+   ^
+Error: command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.659] {DTA}[8.36.200.27 26]: undo pki domain default
+[2][main] undo pki domain default
+Error: Illegal to delete PKI undo netconf
+
+[2][main] [2019-03-11 15:00:13.150] {DTA}[8.36.200.27 26]: undo ssh client
+[2][main] undo ssh client
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.161] {DTA}[8.36.200.27 126]: undo ssh client key-exchange
+[2][main] undo ssh client key-exchange
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.162] {DTA}[8.36.200.27 226]: undo ssh client hmac
+[2][main] undo ssh client hmac
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.171] {DTA}[8.36.200.27 236]: undo ssh client hmac sha2
+[2][main] undo ssh client hmac sha2
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.181] {DTA}[8.36.200.27 216]: undo ssh client hmac sha2_1268
+[2][main] undo ssh client hmac sha2_1268
+   ^
+Error: Too many parameters found at '^' position
+
+[2][main] [2019-03-11 15:00:13.191] {DTA}[8.36.200.27 246]: undo ssh user system
+[2][main] undo ssh user system
+Error: The configue is invalid
+
+[2][main] [2019-03-11 15:00:13.158] {DTA}[8.36.200.27 236]: undo ssh user Admin system
+[2][main] undo ssh user Admin system
+Error: The configue is invalid
+
+[2][main] [2019-03-11 15:00:13.169] {DTA}[8.36.200.27 216]: undo ip vpn-instance
+[2][main] undo ip vpn-instance
+Error: Deleting the vpn-instance is not allowed.
+
+[2][main] [2019-03-11 15:00:13.179] {DTA}[8.36.200.27 226]: undo ntp-service server
+[2][main] undo ntp-service server
+   ^
+Error: Wrong parameter found at '^' position
+
+[2][main] [2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 5
+[2][main] undo service-template default 5
+Error: System defined service-template default 5 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 6
+[2][main] undo service-template default 6
+Error: System defined service-template default 6 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.199] {DTA}[8.36.200.27 226]: undo service-template default 7
+[2][main] undo service-template default 7
+Error: System defined service-template default 7 can not be deleted by user.
+
+[2][main] [2019-03-11 15:00:13.179] {DTA}[8.36.200.27 261]: undo set neid 789874
+[2][main] undo set neid 789874
+   ^
+Error: Unrecognized command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.169] {DTA}[8.36.200.27 269]: display current-configuration
+[2][main] display current-configuration
+! Last configuration was updated at 2019-05-11 15:00:13
+! Last configuration was saved at 2019-05-11 15:00:13
+#
+sysname T789
+#
+set neid 7878
+#
+service-template template-default 05
+#
+service-template template-default 06
+#
+service-template template-default 07
+#
+service-template template-default 08
+#
+service-template template-default 09
+#license
+active port-basic slot 39 card 11-48
+active port-evpn slot 39 card 11-48
+active port-vxlan slot 39 card 11-48
+active port-srv slot 39 card 11-48
+#
+interface GigabitEthernet6/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/46
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/47
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/48
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/49
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet6/0/55
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet7/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet8/0/45
+undo shutdown
+undo dcn
+#
+interface GigabitEthernet9/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE6/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE9/0/33
+undo shutdown
+undo dcn
+#
+interface 29GE2/0/46
+undo shutdown
+undo dcn
+#
+interface 29GE2/0/35
+undo shutdown
+undo dcn
+#
+interface 29GE2/0/12
+undo shutdown
+undo dcn
+#
+interface 29GE7/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE8/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE8/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE9/0/45
+undo shutdown
+undo dcn
+#
+interface 29GE15/0/45
+undo shutdown
+undo dcn
+#
+interface Post15/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+#
+interface Post16/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+#
+interface Post17/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+#
+interface Post18/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+#
+interface Post19/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+#
+interface Post25/0/45
+link-protocol ggg
+undo shutdown
+undo dcn
+
+[2][main] [2019-03-11 15:00:13.159] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: Unrecognized command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.190] {DTA}[8.36.200.27 27]: quit
+[2][main] quit
+
+[2][main] [2019-03-11 15:00:13.192] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: Unrecognized command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.193] {DTA}[8.36.200.27 27]: delete rui user all
+[2][main] delete rui user all
+   ^
+Error: Unrecognized command found at '^' position
+
+[2][main] [2019-03-11 15:00:13.160] {DTA}[8.36.200.27 27]: interface Pos 81/4/0
+[2][main] interface Pos 81/4/0
+
+[2][main] [2019-03-11 15:00:13.162] {DTA}[8.36.200.27 27]: interface Pos 91/4/0
+[2][main] interface Pos 91/4/0
+
+[2][main] [2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: interface Pos 61/4/0
+[2][main] interface Pos 61/4/0
+		
+[2][main] [2019-03-11 15:00:13.164] {DTA}[8.36.200.27 27]: display clock
+[2][main] display clock
+                         total        used        free             shared    buff/cache   available
+Mem:        8010172      627052     6692808        8624      690232     7066364
+Swap:       8388604           2     8388604
