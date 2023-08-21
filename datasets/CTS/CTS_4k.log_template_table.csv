@@ -1,8 +1,0 @@
-ID,Template
-t1,Slot # Type  Online   Register      Status    Role  Lsld  Primary
-t2,Item name         Item type           Value             Description
-t3,Module    Version       InstallTime      PackageName
-t4,No.  commitID     Label        User                    TimeStamp
-t5,Idx    Attr      Size(Byte)            Date         Time          FileName
-t6,Destination/Mask    Proto       Pre        Cost            Flags NextHop           Interface
-t7, total        used        free             shared    buff/cache   available

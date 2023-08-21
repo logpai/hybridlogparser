@@ -1,8 +1,0 @@
-ID,Template
-t1,USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND
-t2,Filesystem 1K-blocks Used Available Use% Mounted on
-t3,PID USER PR NI VIRT RES SHR ST %CPU %MEM TIME+ COMMAND
-t4,event_time user_host thread_id server_id command_type argument
-t5,total used free shared buff/cache available
-t6,Type Date Time Input_data_size Duration(s) Throughput(bytes/s) Throughput/node 
-t7,Type Date Time Input_data_size Duration(s)
