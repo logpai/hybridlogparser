@@ -4,10 +4,7 @@
 
 ## Preliminary
 
-Hybrid log parsing is a **superset** of existing log parsing research that targets single-line logs. It aims to focuses on single-line logs (e.g., typical execution logs), multi-line logs (e.g, exception logs or tabular system status logs), and their mix, 
-The output of this task includes
-- a meta-file that contains the template of each log message and its location in the original log file
-- structured log files with variable lists in each log type. 
+Hybrid log parsing is a **superset** of existing log parsing research that targets single-line logs. It focuses on single-line logs (e.g., typical execution logs), multi-line logs (e.g, exception logs or tabular system status logs), and their mix.
 
 Hybrid log parsers are designed to handle hybrid log parsing task, which is challenging for traditional [log parsers](https://github.com/logpai/logparser) due to the structural variability of hybrid logs.
 
